@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "CatProductService",
+                "projectName": "CatProductService",
+                "workingDirectory": "c:\\Users\\Andrea\\Desktop\\Software_Engineering\\Project1Services\\catProductSerivice\\CatProductService",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "CatProductService",
+                "projectName": "CatProductService",
+                "workingDirectory": "c:\\Users\\Andrea\\Desktop\\Software_Engineering\\Project1Services\\catProductSerivice\\CatProductService",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
