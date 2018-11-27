@@ -1,6 +1,11 @@
-package catproducts.productService.api.entities;
+package catproducts.catdb.api.entities;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "Product")
 public class Product {
+    @Id
     private String id;
     private String name;
     private double price;
@@ -11,9 +16,9 @@ public class Product {
     public Product(){
         super();
     }
-    public Product (String id, String name, double price, String description, int quantity, String productImage) {
+    public Product (String name, double price, String description, int quantity, String productImage) {
         super();
-        this.id = id;
+        //this.id = id;
         this.setName(name);
         this.setPrice(price);
         this.setDescription(description);
@@ -61,9 +66,9 @@ public class Product {
         this.name = name;
     }
 
-    public void setId (String id) {
-        this.id = id;
-    }
+    // public void setId (String id) {
+    //     this.id = id;
+    // }
 
     public String getId () {
         return this.id;
